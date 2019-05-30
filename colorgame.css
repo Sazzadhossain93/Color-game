@@ -1,0 +1,76 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+h1{
+    color: antiquewhite;
+    text-align:center;
+    line-height: 1.1;
+    padding: 20px 0;
+    font-weight:normal;
+    background-color: #548754;
+    margin:0;
+    text-transform: uppercase;
+}
+
+.square{
+    
+    width: 30%;
+    background: blueviolet;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border: none;
+  border-radius: 50%;
+  transition: background 0.6s;
+}
+
+#colordisplay{
+    font-size: 200%;
+}
+
+
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+
+
+#stripe{
+    height: 30px;
+    background: white;
+    text-align: center;
+
+}
+
+.selected{
+    color:white;
+    background: steelblue;
+}
+
+button{
+    color:steelblue;
+    border:none;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: steelblue;
+    text-transform: uppercase;
+    font-size:inherit;
+    transition: all 0.3s;
+
+}
+
+#messege{
+    display: inline-block;
+    width: 20%;
+}
+
+button:hover{
+    color:white;
+    background: steelblue;
+}
